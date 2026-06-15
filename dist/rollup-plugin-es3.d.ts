@@ -1,5 +1,5 @@
 export interface Es3Options {
-  remove?: Array<'defineProperty' | 'freeze' | string>;
+  remove?: Array<'defineProperty' | 'freeze'>;
   sourceMap?: boolean;
   sourcemap?: boolean;
 }
